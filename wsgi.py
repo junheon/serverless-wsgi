@@ -9,6 +9,11 @@ Inspired by: https://github.com/miserlou/zappa
 
 Author: Logan Raarup <logan@logan.dk>
 """
+try:
+    import unzip_requirements
+except ImportError:
+    pass
+
 import base64
 import os
 import sys
